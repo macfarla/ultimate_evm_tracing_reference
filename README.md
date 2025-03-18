@@ -82,9 +82,9 @@ Each node client supports a different set of tracers and trace methods.
 | `trace_rawTransaction`          | ❌ | ✅ | ✅ | ✅ | ✅ |
 | `trace_get`                     | ❌ | ✅ | ✅ | ✅ | ❌ |
 | `debug_traceBlock`              | ✅ | ✅ | ✅ | ✅ | ✅ |
-| `debug_traceTransaction`        | ✅ | ✅ | ✅ | ❌ | ✅ |
-| `debug_traceCall`               | ✅ | ✅ | ✅ | ❌ | ✅ |
-| `debug_traceBlockByNumber`      | ✅ | ✅ | ✅ | ❌ | ✅ |
+| `debug_traceTransaction`        | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `debug_traceCall`               | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `debug_traceBlockByNumber`      | ✅ | ✅ | ✅ | ✅ | ✅ |
 | `debug_traceBlockByHash`        | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 The set of traces that can be obtained for a chain is determined by the clients that support that chain:
